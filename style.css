@@ -15,6 +15,7 @@
     background-color:cornsilk;
     position: relative;
     display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -31,6 +32,7 @@
 
 .content{
     flex:1 0 auto;
+    max-width: 100%;
 }
 
 .content h3{
