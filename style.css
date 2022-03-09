@@ -1,50 +1,32 @@
 .cards-section{
-   width:100%;
-}
-
-.cont{
-    display: flex;
+    display:flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 80%;
-    margin:0 auto;
+    width:80%;
+    margin: 0 auto;
+    background-color:gray;
+    justify-content: space-around;
 }
 
-.i{
-    display: flex;
-    flex-direction: row;
-    width: 33.333%;
-    
+.card{
+    width: 20%;
     padding:10px;
     margin:20px;
     background-color:cornsilk;
     position: relative;
+    
 }
 
-.card{
-   
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-   
-}
-
-
-.card header{
-   width: 100%;
-   position:relative;
-    border:solid 1px red;
-}
 
 .card  img{
-    width: 100%;
-   
+    width:100%;
 }
 
 .content{
-    flex: 1 0 auto;
+    display:flex;
+    flex-direction: column;
 }
 
 .content h3{
-    /* flex: 1 0 auto; */
+    flex-grow: 1;
 }
